@@ -1,13 +1,14 @@
 body {
   background-color: rgb(242, 242, 242);
-  font-family: arial;
+  font-family: brandon-grotesque, sans-serif;
+  font-style: normal;
+  font-weight: 100;
 }
 
 div {
     min-height: 20vh;
     width: max;
 }
-
 .header {
   height:300px;
   background-color: rgb(41, 179, 164);
