@@ -17,8 +17,9 @@ div {
   padding-bottom: 10px;
   padding-left: 30px;
 }
-img{
+img {
   width:250px;height:300px;
+  margin-top: 10px
 }
 
 div
