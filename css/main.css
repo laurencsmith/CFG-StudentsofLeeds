@@ -1,7 +1,6 @@
 body {
   background-color: rgb(242, 242, 242);
   font-family: brandon-grotesque, sans-serif;
-  font-style: normal;
   font-weight: 100;
 }
 
@@ -30,6 +29,7 @@ div
 }
 
 .topnav a {
+  font-style: bold;
   height: 10px;
   width: 150px;
   margin-top: 10px;
