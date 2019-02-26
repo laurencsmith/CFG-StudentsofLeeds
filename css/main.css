@@ -57,6 +57,7 @@ div
   margin-top: 10px;
   font-size: 17px;
   border: 10px;
+  width: 200px;
 }
 
 .topnav .search-container {
@@ -73,10 +74,12 @@ div
   font-size: 17px;
   border: none;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .topnav .search-container button:hover {
-  background: #ccc;
+  background: rgb(41,179,164);
+  color: white;
 }
 
 @media screen and (max-width: 600px) {
@@ -133,6 +136,43 @@ div
   clear: both;
 }
 
+h3 {
+  width: 100%;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #ddd;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(41, 179, 164);
+  color: white;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 40%;
+  padding-left: 30%;
+}
 
 footer {
   display: block;
