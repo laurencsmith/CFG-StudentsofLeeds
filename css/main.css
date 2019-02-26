@@ -104,13 +104,19 @@ div
   background-color: white;
 }
 
+.column h2 {
+  text-align: center;
+}
+
 .column.side {
   width: 15%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 80px;
+  padding: 20px;
 }
+
 
 .column.middle {
   width: 30%;
@@ -118,7 +124,7 @@ div
   margin-bottom: 20px;
   margin-right: 20px;
   margin-left: 80px;
-
+  padding: 20px;
 }
 
 .row:after {
@@ -126,6 +132,7 @@ div
   display: table;
   clear: both;
 }
+
 
 footer {
   display: block;
