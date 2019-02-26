@@ -61,6 +61,7 @@ div
 
 .topnav .search-container {
   float: right;
+  margin-top: 7px;
 }
 
 .topnav .search-container button {
