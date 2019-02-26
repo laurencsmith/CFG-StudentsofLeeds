@@ -30,8 +30,7 @@ div
 
 .topnav a {
   font-weight: bold;
-  height: 10px;
-  width: 150px;
+  width: 170px;
   margin-top: 10px;
   float: left;
   color: black;
@@ -53,6 +52,7 @@ div
 
 .topnav input[type=text] {
   float: left;
+  padding-left: 10px;
   height: 50px;
   margin-top: 10px;
   font-size: 17px;
