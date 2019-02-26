@@ -43,12 +43,12 @@ div
 
 .topnav a:hover {
   background-color: rgb(41, 179, 164);
-  color: black;
+  color: white;
 }
 
 .topnav a.active {
   background-color: rgb(41, 179, 164);
-  color: black;
+  color: white;
 }
 
 .topnav input[type=text] {
