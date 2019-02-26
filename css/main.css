@@ -126,3 +126,8 @@ div
   display: table;
   clear: both;
 }
+
+footer {
+  display: block;
+  text-align: center;
+}
