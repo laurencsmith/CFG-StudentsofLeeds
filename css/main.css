@@ -53,6 +53,7 @@ div
 
 .topnav input[type=text] {
   float: left;
+  padding-left: 10px;
   height: 50px;
   margin-top: 10px;
   font-size: 17px;
