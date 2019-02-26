@@ -95,31 +95,6 @@ div
   }
 }
 
-.column {
-  float: left;
-  height: 400px;
-  color: black;
-  text-align: justify;
-  background-color: white;
-}
-
-.column.side {
-  width: 15%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 80px;
-}
-
-.column.middle {
-  width: 30%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-right: 20px;
-  margin-left: 80px;
-
-}
-
 .row:after {
   content: "";
   display: table;
