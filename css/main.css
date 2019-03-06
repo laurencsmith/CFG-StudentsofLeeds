@@ -134,6 +134,10 @@ div
   padding: 20px;
 }
 
+.column.middle iframe {
+  width: 400px;
+  height: 250px;
+}
 .row:after {
   content: "";
   display: table;
