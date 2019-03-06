@@ -8,8 +8,9 @@ div {
     min-height: 20vh;
     width: max;
 }
+
 .header {
-  height:300px;
+  height:200px;
   background-color: rgb(41, 179, 164);
   text-align: center;
   padding-top: 10px;
@@ -17,8 +18,9 @@ div {
   padding-bottom: 10px;
   padding-left: 30px;
 }
-img {
-  width:250px;height:300px;
+
+.header img {
+  width:158px;height:190px;
   margin-top: 10px
 }
 
