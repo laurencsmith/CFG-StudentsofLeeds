@@ -120,7 +120,10 @@ div
   margin-left: 80px;
   padding: 20px;
 }
-
+.column.side img {
+  width: 200px;
+  height: 150px;
+}
 
 .column.middle {
   width: 30%;
