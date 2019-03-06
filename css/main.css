@@ -41,8 +41,8 @@ div
   text-align: center;
   padding: 20px 40px;
   text-decoration: none;
-  font-size: 18px;
-
+  font-size: 14px;
+  height: 10px;
 }
 
 .topnav a:hover {
@@ -58,9 +58,9 @@ div
 .topnav input[type=text] {
   float: left;
   padding-left: 10px;
-  height: 50px;
+  height: 10px;
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 14px;
   border: 10px;
   width: 200px;
 }
@@ -74,9 +74,9 @@ div
   float: right;
   margin-top: 10px;
   margin-right: 16px;
-  height: 50px;
+  height: 25px;
   background: #ddd;
-  font-size: 17px;
+  font-size: 14px;
   border: none;
   cursor: pointer;
   border-radius: 4px;
