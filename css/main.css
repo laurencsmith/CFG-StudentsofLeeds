@@ -80,6 +80,8 @@ div
 .topnav a:hover {
   background-color: rgb(41, 179, 164);
   color: white;
+  font-size: 15px;
+  transition: 0.6s ease;
 }
 
 .topnav a.active {
