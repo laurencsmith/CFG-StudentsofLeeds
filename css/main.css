@@ -8,18 +8,53 @@ div {
     min-height: 20vh;
     width: max;
 }
+
 .header {
-  height:300px;
+  height:200px;
   background-color: rgb(41, 179, 164);
   text-align: center;
   padding-top: 10px;
   padding-right: 40px;
   padding-bottom: 10px;
-  padding-left: 30px;
+  padding-left: 44%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
 }
-img {
-  width:250px;height:300px;
+
+.header img {
+  width: 23%; height:190px;
   margin-top: 10px
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 12px;
+  height: 12px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
 }
 
 div
@@ -35,10 +70,11 @@ div
   float: left;
   color: black;
   text-align: center;
-  padding: 20px 40px;
+  padding: 10px 40px;
+  padding-bottom: 20px;
   text-decoration: none;
-  font-size: 18px;
-
+  font-size: 14px;
+  height: 10px;
 }
 
 .topnav a:hover {
@@ -54,9 +90,9 @@ div
 .topnav input[type=text] {
   float: left;
   padding-left: 10px;
-  height: 50px;
+  height: 25px;
   margin-top: 10px;
-  font-size: 17px;
+  font-size: 14px;
   border: 10px;
   width: 200px;
 }
@@ -70,9 +106,10 @@ div
   float: right;
   margin-top: 10px;
   margin-right: 16px;
-  height: 50px;
+  height: 25px;
   background: #ddd;
-  font-size: 17px;
+  font-size: 14px;
+  font-weight: bold;
   border: none;
   cursor: pointer;
   border-radius: 4px;
@@ -99,6 +136,7 @@ div
     border: 1px solid #ccc;
   }
 }
+
 
 .column {
   float: left;
@@ -200,7 +238,10 @@ div
   margin-left: 80px;
   padding: 20px;
 }
-
+.column.side img {
+  width: 200px;
+  height: 130px;
+}
 
 .column.middle {
   width: 30%;
@@ -210,6 +251,18 @@ div
   margin-left: 80px;
   padding: 20px;
 }
+
+.column.middle iframe {
+  width: 400px;
+  height: 250px;
+}
+
+.column.middle img {
+  width: 340px;
+  height: 250px;
+  align-items: center;
+}
+
 
 .row:after {
   content: "";
