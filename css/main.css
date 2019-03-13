@@ -253,7 +253,13 @@ div
   margin-right: 20px;
   margin-left: 80px;
   padding: 10px;
-  height: 460px;
+  height: 800px;
+}
+
+#myBtn {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
 }
 
 .column.middle iframe {
@@ -267,6 +273,7 @@ div
   align-items: center;
 }
 
+#more {display: none;}
 
 .row:after {
   content: "";
