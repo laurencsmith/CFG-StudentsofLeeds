@@ -285,7 +285,7 @@ img{
   margin-right: 20px;
   margin-left: 80px;
   padding: 10px;
-  height: 740px;
+  height: 770px;
 }
 
 #myBtn {
@@ -296,7 +296,8 @@ img{
 }
 
 #more p {
-   padding: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
  }
 
 .column.middle iframe {
