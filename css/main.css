@@ -324,6 +324,29 @@ img{
   clear: both;
 }
 
+.Kim {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.Eleanor {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 220px;
+  border-radius: 130px;
+}
+
+.Lauren {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 420px;
+  border-radius: 130px;
+}
+
 h3 {
   width: 100%;
   text-align: center;
