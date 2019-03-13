@@ -10,7 +10,7 @@ div {
 }
 
 .header {
-  width: 100%;
+  width: max;
   height:300px;
   background-color: white;
   text-align: center;
@@ -26,6 +26,8 @@ div {
 .header img {
   height:300px;
   width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .fa {
@@ -71,7 +73,7 @@ div
 
 .topnav a {
   font-weight: bold;
-  width: 12%;
+  width: 170px;
   margin-top: 10px;
   float: left;
   color: black;
