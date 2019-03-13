@@ -10,23 +10,22 @@ div {
 }
 
 .header {
-  height:200px;
-  background-color: rgb(41, 179, 164);
-  background-image: linear-gradient(rgb(147, 234, 226), rgb(41, 179, 164));
+  width: 100%;
+  height:300px;
+  background-color: white;
   text-align: center;
   padding-top: 10px;
   padding-right: 40px;
   padding-bottom: 10px;
-  padding-left: 44%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
+  position: relative;
 }
 
 .header img {
-  width: 23%; height:190px;
-  margin-top: 10px
+  height:300px;
+  width: 100%;
 }
 
 .fa {
@@ -46,16 +45,22 @@ div {
 .fa-facebook {
   background: #3B5998;
   color: white;
+  position: absolute;
+  right: 35px;
 }
 
 .fa-twitter {
   background: #55ACEE;
   color: white;
+  position: absolute;
+  right: 91px;
 }
 
 .fa-instagram {
   background: #125688;
   color: white;
+  position: absolute;
+  right: 147px;
 }
 
 div
