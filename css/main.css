@@ -277,6 +277,14 @@ img{
 .column.side img {
   width: 265px;
   height: 165px;
+  transition: transform 1s;
+  margin: 0 auto;
+}
+
+.column.side img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .column.middle {
@@ -309,19 +317,6 @@ img{
   width: 400px;
   height: 290px;
   align-items: center;
-}
-
-.zoom {
-  transition: transform 1s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
 }
 
 .row:after {
