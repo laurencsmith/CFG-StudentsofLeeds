@@ -285,6 +285,14 @@ img{
 .column.side img {
   width: 265px;
   height: 165px;
+  transition: transform 1s;
+  margin: 0 auto;
+}
+
+.column.side img:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 .column.middle {
@@ -293,7 +301,7 @@ img{
   margin-right: 20px;
   margin-left: 80px;
   padding: 10px;
-  height: 740px;
+  height: 770px;
 }
 
 #myBtn {
@@ -304,7 +312,8 @@ img{
 }
 
 #more p {
-   padding: 30px;
+   padding-left: 30px;
+   padding-right: 30px;
  }
 
 .column.middle iframe {
@@ -318,23 +327,33 @@ img{
   align-items: center;
 }
 
-.zoom {
-  transition: transform 1s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
-
-.zoom:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+.Kim {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.Eleanor {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 220px;
+  border-radius: 130px;
+}
+
+.Lauren {
+  display: flex;
+  margin: 0 auto;
+  padding: 20px;
+  padding-left: 420px;
+  border-radius: 130px;
 }
 
 h3 {
