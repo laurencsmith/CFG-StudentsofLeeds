@@ -292,7 +292,12 @@ img{
   background-color: white;
   color: blue;
   cursor: pointer;
+  border: none;
 }
+
+#more p {
+   padding: 30px;
+ }
 
 .column.middle iframe {
   width: 400px;
