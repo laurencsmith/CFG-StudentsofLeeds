@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(242, 242, 242);
+  background-color: rgb(249, 249, 249);
   font-family: brandon-grotesque, sans-serif;
   font-weight: 100;
 }
@@ -326,7 +326,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: rgb (249, 249, 249);
   padding: 20px;
   width: 40%;
   padding-left: 30%;
