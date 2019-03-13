@@ -148,16 +148,23 @@ div
 }
 
 .aboutus h1{
+  color: white;
   margin-top: -80px;
   text-align: center;
-  padding-left: 300px;
-  font-size: 2.5em;
+  padding-left: 200px;
+  font-size: 4em;
+  position: absolute;
+  top: 800px;
 }
 
 .aboutus h2{
+  color: white;
   text-align: center;
   padding-left: 300px;
-  font-size:1em;
+  font-size:2em;
+  position: absolute;
+  top: 830px;
+
 }
 
 {box-sizing: border-box;}
@@ -165,7 +172,8 @@ div
 .slideshow-container {
     max-width: 2000px;
     position: relative;
-    margin: auto;
+    position: relative;
+
 }
 
 .mySlides {
