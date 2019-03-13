@@ -147,6 +147,18 @@ div
   }
 }
 
+.aboutus h1{
+  margin-top: -80px;
+  text-align: center;
+  padding-left: 300px;
+  font-size: 2.5em;
+}
+
+.aboutus h2{
+  text-align: center;
+  padding-left: 300px;
+  font-size:1em;
+}
 
 {box-sizing: border-box;}
 
@@ -273,7 +285,13 @@ img{
   margin-right: 20px;
   margin-left: 80px;
   padding: 10px;
-  height: 460px;
+  height: 740px;
+}
+
+#myBtn {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
 }
 
 .column.middle iframe {
