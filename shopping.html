@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/rje5rac.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <title>Students of Leeds</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="socialmedia"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter"></a>
+        <a href="https://instagram.com" class="fa fa-instagram"></a>
+      </div>
+      <img src="images/banner.jpg" alt="header">
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="foodanddrink.html">FOOD & DRINK</a>
+      <a href="entertainment.html">ENTERTAINMENT</a>
+      <a class="active" href="#SHOPPING">SHOPPING</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="SEARCH.." name="search">
+          <button type="SUBMIT">SUBMIT</button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+        <div class="column side">
+          <h2>Charity Shop Treasures</h2>
+            <p>In light of the recent sustainability movement, why not try and hunt down some amazing charity shop finds to get some unique clothes you can't get on the highstreet?</p>
+              <img src="images/charityshop.jpg" class="zoom" alt="charity shop">
+        </div>
+        <div class="column middle">
+          <h2>Leeds Shopping Arcades</h2>
+            <p>Victoria, Queens, Thorton's and County, these are just a few of the stunning and unique shopping arcades on offer in Leeds Briggate. Click below find out more!<button onclick="myFunction()" id="myBtn">Read more</button></p>
+            <span id="dots"></span>
+            <span id="more">
+              <p>
+                With an array of cool independent shops within which makes it great for a little browse. You'll find a wide range of great jewellery shops and clothing boutiques inside, amongst other interesting shops.
+                The attractive decor makes the arcade nicer to walk through than the street and is very handy in the wet weather. All in all, Queens Arcade has a great selection of shops and should always be on the list for gift shopping.
+              </p>
+            </span>
+            <img src="images/arcade.jpg" class="zoom" alt="Victoria Arcade">
+        </div>
+        <div class="column side">
+          <h2>Arts and Crafts</h2>
+            <p>Quirky and fun gift shop meets huge art supply store, a creative's dream! Check this out for a rainy day well spent...</p>
+              <img src="images/fredaldous.jpg" class="zoom" alt="fred aldous">
+        </div>
+      </div>
+    <div class="container">
+      <h3>CONTACT US</h3>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Something to say?"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+    <footer>
+      <p>Posted by: Eleanor, Kim & Lauren</p>
+      <p>Contact: <a href="mailto:hello@studentsofleeds.com"> hello@studentsofleeds.com</a></p>
+</footer>
+  </body>
+</html>
