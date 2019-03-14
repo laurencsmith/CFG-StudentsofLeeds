@@ -448,6 +448,12 @@ img{
   clear: both;
 }
 
+.twittertl {
+  padding-left: 570px;
+  margin-bottom: 50px;
+  margin-top: -80px;
+}
+
 .contact {
   width: 100%;
   text-align: center;
