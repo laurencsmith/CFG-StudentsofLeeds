@@ -26,6 +26,11 @@ dots[slideIndex-1].className += " active";
 }
 
 //entertainment page
+function disappear() {
+  var moreText = document.getElementById("more");
+  moreText.style.display = "none";
+}
+
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
