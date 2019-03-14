@@ -352,7 +352,6 @@ img{
   width: 100%;
   text-align: center;
   margin-bottom: auto;
-  padding-left: 20px;
 }
 
 .picturesofus img {
@@ -422,6 +421,7 @@ img{
   width: 20%;
   margin-left: 20px;
   margin-right: 20px;
+  position: relative;
 }
 
 .lauren img {
