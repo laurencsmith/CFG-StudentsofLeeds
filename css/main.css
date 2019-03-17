@@ -9,6 +9,7 @@ div {
     width: max;
 }
 
+/* header  */
 .header {
   width: max;
   height:300px;
@@ -30,6 +31,7 @@ div {
   padding-right: 20px;
 }
 
+/* social media buttons */
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -65,6 +67,8 @@ div {
   right: 147px;
 }
 
+
+/* navigation menu */
 div
 .topnav {
   background-color: white;
@@ -147,6 +151,7 @@ div
   }
 }
 
+/* picture slideshow on index page */
 .welcome h1{
   color: white;
   margin-top: -80px;
@@ -263,6 +268,8 @@ img{
   to {opacity: 1}
 }
 
+
+/* boxes on pages other than home page */
 .column {
   float: left;
   height: 400px;
@@ -320,21 +327,6 @@ img{
   margin: 0 auto;
 }
 
-
-#myBtn {
-  background-color: white;
-  color: blue;
-  cursor: pointer;
-  border: none;
-}
-
-#more {display: none;}
-
-#more p {
-   padding-left: 30px;
-   padding-right: 30px;
- }
-
 .column.middle iframe {
   width: 400px;
   height: 250px;
@@ -346,12 +338,27 @@ img{
   align-items: center;
 }
 
+/* read more button */
+#myBtn {
+  background-color: white;
+  color: blue;
+  cursor: pointer;
+  border: none;
+}
+
+#more {display: none;}
+
+#more p {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/* about section on home page */
 .aboutus {
   width: 100%;
   text-align: center;
@@ -452,12 +459,14 @@ img{
   clear: both;
 }
 
+/* twitter feed */
 .twittertl {
   padding-left: 570px;
   margin-bottom: 50px;
   margin-top: -80px;
 }
 
+/* contact form */
 .contact {
   width: 100%;
   text-align: center;

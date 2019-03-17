@@ -26,8 +26,6 @@ dots[slideIndex-1].className += " active";
 }
 
 //read more button
-
-
 function myFunction() {
   var dots = document.getElementById("dots");
   var btnText = document.getElementById("myBtn");
