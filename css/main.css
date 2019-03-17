@@ -129,6 +129,10 @@ div
   border-radius: 4px;
 }
 
+.fa-search {
+  margin-top: -15px;
+}
+
 .topnav .search-container button:hover {
   background: rgb(41,179,164);
   color: white;
