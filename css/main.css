@@ -320,12 +320,15 @@ img{
   margin: 0 auto;
 }
 
+
 #myBtn {
   background-color: white;
   color: blue;
   cursor: pointer;
   border: none;
 }
+
+#more {display: none;}
 
 #more p {
    padding-left: 30px;

@@ -25,18 +25,15 @@ slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 }
 
-//entertainment page
-function disappear() {
-  var moreText = document.getElementById("more");
-  moreText.style.display = "none";
-}
+//read more button
+
 
 function myFunction() {
   var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
+  var moreText = document.getElementById("more");
 
-  if (dots.style.display === "none") {
+  if (dots.style.display == "none") {
     dots.style.display = "inline";
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
