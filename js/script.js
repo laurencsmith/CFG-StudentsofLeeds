@@ -35,10 +35,12 @@ function myFunction() {
     dots.style.display = "inline";
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
+    document.getElementById("middle").style.height = "570px";
   } else {
     dots.style.display = "none";
     btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
+    document.getElementById("middle").style.height = "770px";
   }
 }
 
