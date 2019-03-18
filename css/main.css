@@ -489,6 +489,9 @@ ol {
   text-align: center;
   margin-bottom: -80px;
 }
+h3 {
+  text-align: center;
+}
 
 input[type=text], select, textarea {
   width: 100%;
