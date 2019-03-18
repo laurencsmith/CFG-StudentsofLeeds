@@ -328,20 +328,13 @@ img{
   margin-right: 20px;
   margin-left: 80px;
   padding: 10px;
-  height: 770px;
+  height: 570px;
 }
 
 .column.middle img:hover {
   -ms-transform: scale(1.2);
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}
-
-.column.middle img {
-  width: 265px;
-  height: 165px;
-  transition: transform 1.7s;
-  margin: 0 auto;
 }
 
 .column.middle iframe {
@@ -353,10 +346,12 @@ img{
   width: 400px;
   height: 290px;
   align-items: center;
+  transition: transform 1.7s;
+  margin: 0 auto;
 }
 
 ol {
-  padding-left: 30px;
+  padding-left: 40px;
   padding-right: 30px;
 }
 
