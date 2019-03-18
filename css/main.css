@@ -308,7 +308,6 @@ img{
   transform: scale(1.2);
 }
 
-
 .column.middle {
   width: 30%;
   margin-bottom: 20px;
@@ -340,6 +339,11 @@ img{
   width: 400px;
   height: 290px;
   align-items: center;
+}
+
+ol {
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 /* read more button */
