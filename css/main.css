@@ -151,7 +151,7 @@ div
   color: white;
   margin-top: -80px;
   text-align: center;
-  padding-left: 200px;
+  padding-left: 150px;
   font-size: 4em;
   position: absolute;
   top: 720px;
@@ -160,20 +160,19 @@ div
 .welcome h2{
   color: white;
   text-align: center;
-  padding-left: 300px;
+  padding-left: 250px;
   font-size:2em;
   position: absolute;
   top: 750px;
 
 }
 
-{box-sizing: border-box;}
-
 .slideshow-container {
     max-width: 2000px;
     margin:auto;
     position: relative;
     top: -90px;
+    padding-bottom: -200px;
 }
 
 .mySlides {
