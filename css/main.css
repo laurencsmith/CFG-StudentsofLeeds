@@ -520,7 +520,7 @@ input[type=submit]:hover {
 
 .container {
   border-radius: 5px;
-  background-color: rgb (249, 249, 249);
+  background-color: rgb(249, 249, 249);
   padding: 20px;
   width: 40%;
   padding-left: 30%;
@@ -535,6 +535,8 @@ footer {
 /* scroll to top button */
 #topbutton {
   bottom: 20px;
+  margin-left: 600px;
+  margin-top: 50px;
   right: 30px;
   z-index: 99;
   border: none;
@@ -549,7 +551,7 @@ footer {
 }
 
 #topbutton :hover {
-  background-color: rgb(249, 249, 249);
+  background-color: white;
 }
 
 /* scroll bar */
