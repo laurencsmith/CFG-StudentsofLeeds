@@ -570,5 +570,5 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #b30000;
+  background: rgb(41, 179, 164);
 }
