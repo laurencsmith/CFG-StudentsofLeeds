@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/rje5rac.css">
+    <meta charset="utf-8">
+    <title>Students of Leeds</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="socialmedia"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/students_leeds/" class="fa fa-twitter"></a>
+        <a href="https://instagram.com" class="fa fa-instagram"></a>
+      </div>
+      <img src="images/banner.jpg" alt="header">
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a href="foodanddrink.html">FOOD & DRINK</a>
+      <a class="active" href="#ENTERTAINMENT">ENTERTAINMENT</a>
+      <a href="shopping.html">SHOPPING</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="SEARCH.." name="search">
+          <button type="SUBMIT"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="column side">
+        <h2>Budget Days Out</h2>
+        <p>On a budget? There's still loads of things to do! From museums and art galleries, to scenic walks, there's plenty do with little to no money!</p>
+        <img class="budget pic" src="images/the tetley.jpg" class="zoom" alt="tetley">
+      </div>
+      <div class="column middle" id="middle">
+        <h2>Quirky Attractions</h2>
+          <p>There's lots of places to go if you're wanting to try something different. These attractions and activites are sure to spice up your day:
+            <ul>
+              <li>Junkyard Golf - <button onclick="myFunction()" id="myBtn">Read more</button> about this and watch the video below!</li>
+              <li>Escape Rooms</li>
+              <li>Roxy Ballroom</li>
+              <li>Loop</li>
+            </ul>
+          </p>
+          <span id="dots"></span>
+          <span id="more" onload="disappear()">
+          <p>
+            You can golf, eat, drink, and dance at Junkyard Golf! "Get excited on three mashed up 9-hole crazy golf courses created from pre-loved and reclaimed random shizzle. Groups can putt their way through all sorts of bizarre holes; think UV garage, scrapyard slides, circus freaks and jungle bathtubs."
+          </p>
+          </span>
+          <iframe src="https://www.youtube.com/embed/13pSlaEHFp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      <div class="column side">
+        <h2>Night Life</h2>
+        <p>Whatever type of music you're into, there's a night out for you! Cheesey tunes, RnB, Indie, Drum n Bass, there's plenty to choose from.</p>
+        <img src="images/church leeds.jpg" class="zoom" alt="Night at Church Leeds">
+      </div>
+    </div>
+
+    <div class="container">
+      <h3>CONTACT US</h3>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Something to say?"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div>
+      <button onclick="topFunction()" id="topbutton" title="Go to top">Back to Top</button>
+    </div>
+
+    <footer>
+      <p>Posted by: Eleanor, Kim & Lauren</p>
+      <p>Contact: <a href="mailto:hello@studentsofleeds.com"> hello@studentsofleeds.com</a></p>
+    </footer>
+
+  </body>
+</html>

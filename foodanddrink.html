@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="https://use.typekit.net/rje5rac.css">
+    <link rel="stylesheet" href="css/main.css">
+    <meta charset="utf-8">
+    <title>Students of Leeds</title>
+    <link rel="icon" href="images/favicon.jpg" type="image/gif" sizes="16x16">
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="socialmedia"
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <a href="https://facebook.com" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/students_leeds/" class="fa fa-twitter"></a>
+        <a href="https://instagram.com" class="fa fa-instagram"></a>
+      </div>
+      <img src="images/banner.jpg" alt="header">
+    </div>
+
+    <div class="topnav">
+      <a href="index.html">HOME</a>
+      <a class="active" href="#FOOD & DRINK">FOOD & DRINK</a>
+      <a href="entertainment.html">ENTERTAINMENT</a>
+      <a href="shopping.html">SHOPPING</a>
+      <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="SEARCH.." name="search">
+          <button type="SUBMIT"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <div class="row">
+        <div class="column side">
+          <h2>Vegan Food</h2>
+            <p>Why not try one of the many vegan eateries Leeds has to offer? There so many different cuisines to try from, from Indian to Moroccan. You can also find vegan junk food and desserts.</p>
+              <img src="images/bundobust.jpg" class="zoom" alt="bundobust">
+        </div>
+        <div class="column middle" id="middle">
+          <h2>Sweet Treats</h2>
+            <p>From desserts to doughnuts, Leeds has so many places to pick up a sweet treat. Click below to see our sweet treat of the month!<button onclick="myFunction()" id="myBtn">Read more</button></p>
+            <span id="dots"></span>
+            <span id="more">
+              <p>
+                Crêpes Around the Clock! Crêpeaffaire is a place where you can enjoy freshly prepared crêpes whatever your craving, at any time of the day. Why you should visit:
+              </p>
+              <ol>
+                <li>A fun relaxed spot where the food is prepared in front of you!</li>
+                <li>Sweet or savoury options.</li>
+                <li>Made with organic flour and natural ingredients - pleasure you can measure!</li>
+                <li>Who doesn't love crepes?</li>
+                </ol>
+            </span>
+            <img src="images/crepe.jpg" class="zoom" alt="crepe affaire">
+        </div>
+        <div class="column side">
+          <h2>A Bit of Fun</h2>
+            <p>There are many restaurants in Leeds which incorporate a fun element into your dining experience. Check these out if you're looking for something more fun!</p>
+              <img src="images/bulgoli.jpg" class="zoom" alt="bulgoli">
+        </div>
+    </div>
+
+    <div class="container">
+      <h3>CONTACT US</h3>
+      <form action="action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Something to say?"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+    <div>
+      <button onclick="topFunction()" id="topbutton" title="Go to top">Back to Top</button>
+    </div>
+
+    <footer>
+      <p>Posted by: Eleanor, Kim & Lauren</p>
+      <p>Contact: <a href="mailto:hello@studentsofleeds.com"> hello@studentsofleeds.com</a></p>
+    </footer>
+
+  </body>
+</html>
